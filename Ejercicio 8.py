@@ -1,7 +1,7 @@
 
 print("Escriba un numero")
 n = int(input())
-k = 1
+k = 0
 num = 0
 while(n>0):
     
@@ -11,7 +11,6 @@ while(n>0):
     k = k + 2
     n = int(n)
 
-num = num/10
 print(int(num))
      
     
