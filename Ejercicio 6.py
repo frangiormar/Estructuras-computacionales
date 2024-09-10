@@ -2,7 +2,7 @@
 print("Es escriba un numero ")
 x = int(input())
 
-for k in range(1, x+1, 1):   #Es EL ciclo que va a tener el programa que se va a repetir hasta llegar al numero dijitado, k actua como contador para evaluar cada numero que hay hasta x
+for k in range(1, x+1, 1):   #Es el ciclo que va a tener el programa que se va a repetir hasta llegar al numero dijitado, k actua como contador para evaluar cada numero que hay hasta x
 
   if(k%3 == 0) and (k%5 == 0):  #Evalua si el numero (K) es divisible entre 3 y 5 a la vez
 
